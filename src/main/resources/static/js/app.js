@@ -1,7 +1,10 @@
 var ControllerModule=(function(){
 
 	CiudadByName =function(ciudad){
-		console.log(ciudad);
+		var tabla= $('#tabla1');
+		var html;
+		console.log(ciudad.coord);
+		console.log(ciudad.sys);
 	};
 
 	/**CinemaByname =function(cine){
@@ -43,7 +46,6 @@ var ControllerModule=(function(){
 	return {		
 		metodoGetCity:function (){			
 			var ciudad= $('#ciudad').val();
-			console.log(ciudad)
 			clienteRest.getCiudadByName(ciudad,CiudadByName);			
 		}		
 	}

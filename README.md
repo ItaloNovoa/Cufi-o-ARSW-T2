@@ -1,3 +1,6 @@
+#Nota esperada 2.7
+
+
 # Parcial 2 ARSW-T2
 
 Parcial del segundo tercio
